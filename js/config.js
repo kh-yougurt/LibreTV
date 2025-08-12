@@ -114,11 +114,113 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    // testSource: {
+    //     api: 'https://www.example.com/api.php/provide/vod',
+    //     name: '空内容测试源',
+    //     adult: true
+    // },
+    maotai: {
+        api: 'https://caiji.maotaizy.cc/api.php/provide/vod',
+        name: '茅台资源',
+        detail: 'https://caiji.maotaizy.cc/',
+    },
+    douban: {
+        api: "https: //caiji.dbzy.tv/api.php/provide/vod",
+        name: '豆瓣资源采集站',
+        detail: 'https://caiji.dbzy.tv/',
+    },
+    tyyszy: {
+        api: 'https://tyyszyapi.com/api.php/provide/vod',
+        name: '天涯影视资源网',
+        detail: 'https://tyyszyapi.com/',
+    },
+    jmzy: {
+        api:'https://api.jmzy.com/api.php/provide/vod',
+        name:'金马资源网',
+        detail: 'https://www.jmzy1.com/',
+    },
+    // 下面是一些成人内容的API源，默认隐藏，使用本项目浏览黄色内容违背项目初衷
+    // 互联网上传播的色情内容将人彻底客体化、工具化，是性别解放和人类平等道路上的巨大障碍。
+    // 这些黄色影片是资本主义父权制压迫的最恶毒体现，它将暴力和屈辱商品化，践踏人的尊严，对受害者造成无法弥愈的伤害，并毒害社会关系。
+    // 资本为了利润，不惜将最卑劣的剥削（包括对受害者和表演者的剥削）和暴力商品化，
+    // 把性别剥削塑造成“性享受”麻痹观众的意识，转移我们对现实生活中矛盾和压迫的注意力。
+    // 这些影片和背后的产业已经使数百万男女“下海”，出卖自己的身体，甚至以此为生计。
+    // 而作为观众无辜吗？毫无疑问，他们促成了黄色产业链的再生产。
+    // 我们提供此警告，是希望您能认清这些内容的本质——它们是压迫和奴役的工具，而非娱乐。
+    ckzy: {
+        api: 'https://ckzy.me/api.php/provide/vod',
+        name: 'CK资源',
+        detail: 'https://www.ckzy1.com',
         adult: true
     },
+    jkun: {
+        api: 'https://jkunzyapi.com/api.php/provide/vod',
+        detail: 'https://jkunzyapi.com',
+        name: 'jkun资源',
+        adult: true
+    },
+    bwzy: {
+        api: 'https://api.bwzyz.com/api.php/provide/vod',
+        detail: 'https://api.bwzym3u8.com',
+        name: '百万资源',
+        adult: true
+    },
+    souav: {
+        api: 'https://api.souavzy.vip/api.php/provide/vod',
+        detail: 'https://api.souavzy.vip',
+        name: 'souav资源',
+        adult: true
+    },
+    r155: {
+        api: 'https://155api.com/api.php/provide/vod',
+        detail: 'https://155zy.com/',
+        name: '155资源',
+        adult: true
+    },
+    lsb: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod',
+        detail: 'laosebizy.com',
+        name: 'lsb资源',
+        adult: true
+    },
+    huangcang: {
+        api: 'https://hsckzy888.com/api.php/provide/vod',
+        name: '黄色仓库',
+        adult: true,
+        detail: 'https://hsckzy.vip'
+    },
+    yutu: {
+        api: 'https://apiyutu.com/api.php/provide/vod',
+        detail: 'https://yutuzy10.com',
+        name: '玉兔资源',
+        adult: true
+    },
+    kuaibo: {
+        api: 'https://gayapi.com/api.php/provide/vod',
+        name: '快播资源网',
+        detail: 'https://gayapi.com',
+        adult: true
+    },
+    danaizi: {
+        api: 'https://apidanaizi.com/api.php/provide/vod',
+        name: '大奶子资源网',
+        detail: 'https://apidanaizi.com',
+        adult: true
+    },
+    
+    // 下面是资源失效率高的API源，不建议使用
+    // subo: {
+    //     api: 'https://subocaiji.com/api.php/provide/vod',
+    //     name: '速播资源'
+    // },
+    // fczy: {
+    //     api: 'https://api.fczy888.me/api.php/provide/vod',
+    //     name: '蜂巢资源'
+    // },
+    // ukzy: {
+    //     api: 'https://api.ukuapi88.com/api.php/provide/vod',
+    //     name: 'U酷资源'
+    // },
 };
 
 // 定义合并方法
